@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#080d20">
+<meta name="description" content="Mumba Veronica Chikumbi — web developer creating thoughtful, modern digital experiences in Lusaka, Zambia.">
+<title>Mumba Veronica — Digital experiences, thoughtfully built.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#080d20;--bg2:#111a35;--panel:#172344;--paper:#10172c;--ink:#10172c;--muted:#a5b1cb;--mint:#a9c5ff;--lilac:#c5b4ff;--pink:#f0b8d7;--line:rgba(190,207,255,.15);--serif:Georgia,serif;--sans:"Manrope","DM Sans",sans-serif;--mono:"DM Mono",monospace;--ease:cubic-bezier(.22,.8,.25,1)}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:var(--bg);color:#f4f7ef;font-family:var(--sans);line-height:1.6;overflow-x:hidden;cursor:auto}body.light{--bg:#f1f2e9;--bg2:#e6eade;--panel:#fff;--paper:#10251f;--ink:#10172c;--muted:#65766d;--line:rgba(16,37,31,.15);color:#10251f}a{color:inherit;text-decoration:none}button{font:inherit}::selection{background:var(--mint);color:#080d20}.wrap{width:min(1180px,calc(100% - 48px));margin:auto}.mono{font-family:var(--mono);text-transform:uppercase;letter-spacing:.12em;font-size:.68rem}.muted{color:var(--muted)}.top-progress{position:fixed;z-index:1000;top:0;left:0;height:2px;width:0;background:var(--mint)}#particleCanvas{position:fixed;inset:0;z-index:0;pointer-events:none;opacity:.62}.site{position:relative;z-index:1}.nav{height:86px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.brand{font-weight:800;letter-spacing:.08em;font-size:.78rem}.brand span{color:var(--mint)}.navlinks{display:flex;gap:30px;align-items:center;font-size:.78rem;color:var(--muted)}.navlinks a{transition:color .2s}.navlinks a:hover,.navlinks a.active{color:var(--mint)}.navright{display:flex;align-items:center;gap:12px}.icon-btn{width:39px;height:39px;border:1px solid var(--line);border-radius:50%;background:transparent;color:inherit;display:grid;place-items:center;cursor:auto}.menu-btn{display:none}.hero{min-height:calc(100vh - 86px);display:grid;grid-template-columns:1.3fr .7fr;align-items:center;gap:30px;padding:90px 0 100px;position:relative}.eyebrow{display:flex;align-items:center;gap:11px;color:var(--mint)}.pulse{width:7px;height:7px;border-radius:50%;background:var(--mint);box-shadow:0 0 0 5px rgba(169,197,255,.13);animation:pulse 2s infinite}@keyframes pulse{50%{box-shadow:0 0 0 10px rgba(169,197,255,0)}}h1{font-size:clamp(3.5rem,8.2vw,7.8rem);line-height:.98;letter-spacing:-.085em;margin:28px 0 24px;font-weight:600;max-width:850px}h1 .outline{color:transparent;-webkit-text-stroke:1px rgba(244,247,239,.65)}body.light h1 .outline{-webkit-text-stroke:1px rgba(16,37,31,.6)}.typed-line{display:inline-block;color:var(--mint);min-height:1.05em}.caret{display:inline-block;width:2px;height:.85em;background:var(--mint);margin-left:5px;vertical-align:-.04em;animation:blink .8s steps(2) infinite}@keyframes blink{50%{opacity:0}}.hero-copy{max-width:540px;color:var(--muted);font-size:1rem}.hero-actions{display:flex;gap:13px;flex-wrap:wrap;margin-top:32px}.btn{border:1px solid var(--line);padding:14px 21px;border-radius:100px;font-size:.78rem;font-weight:700;display:inline-flex;align-items:center;gap:12px;transition:transform .25s var(--ease),background .25s,color .25s,border .25s;cursor:auto}.btn.primary{background:var(--mint);color:#0a211a;border-color:var(--mint)}.btn:hover{transform:translateY(-4px)}.btn.secondary:hover{border-color:var(--mint);color:var(--mint)}.hero-art{height:470px;position:relative;display:grid;place-items:center}.hero-art:before{content:"";position:absolute;width:240px;height:240px;border-radius:50%;background:radial-gradient(circle,rgba(197,180,255,.16),rgba(240,184,215,.06) 48%,transparent 72%);filter:blur(12px)}.orbit{position:absolute;width:min(390px,85vw);aspect-ratio:1;border:1px solid var(--line);border-radius:50%;animation:rotate 32s linear infinite}.orbit:before,.orbit:after{content:"";position:absolute;border:1px solid var(--line);border-radius:50%;inset:12%}.orbit:after{inset:25%}@keyframes rotate{to{transform:rotate(360deg)}}.orb-core{width:190px;height:190px;border-radius:50%;background:radial-gradient(circle at 32% 28%,#edf0ff 0,#a9c5ff 18%,#6978ce 48%,#5b438f 72%,#18234e 100%);box-shadow:0 0 90px rgba(139,158,255,.2),inset -25px -20px 45px rgba(0,0,0,.45);position:relative;animation:float 6s ease-in-out infinite}.orb-core:after{content:"";position:absolute;inset:12px;border:1px solid rgba(210,220,255,.18);border-radius:50%}@keyframes float{50%{transform:translateY(-16px) rotate(7deg)}}.orbit-label{position:absolute;background:var(--bg);border:1px solid var(--line);padding:9px 13px;border-radius:30px;color:var(--muted);font: .62rem var(--mono)}.orbit-label.one{top:12%;right:0}.orbit-label.two{bottom:15%;left:0}.orbit-label.three{bottom:5%;right:12%}.hero-bottom{position:absolute;bottom:28px;left:0;right:0;display:flex;justify-content:space-between;color:var(--muted)}.scroll-cue{display:flex;gap:12px;align-items:center}.scroll-line{height:1px;width:45px;background:var(--mint)}section{padding:120px 0;position:relative}.section-top{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:55px}.kicker{color:var(--mint);margin-bottom:14px}.section-title{font-size:clamp(2.6rem,5.5vw,5.2rem);line-height:1;letter-spacing:-.07em;font-weight:600;margin:0}.section-intro{max-width:390px;color:var(--muted);font-size:.9rem}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:70px}.about-statement{font-size:clamp(1.5rem,3vw,2.45rem);line-height:1.3;letter-spacing:-.045em}.about-statement em{color:var(--mint);font-family:var(--serif);font-weight:400}.about-text{color:var(--muted);max-width:540px}.facts{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:28px}.fact{border:1px solid var(--line);padding:18px;border-radius:14px}.fact strong{display:block;font-size:1.35rem;color:var(--mint)}.fact span{font-size:.7rem;color:var(--muted)}.projects{display:grid;grid-template-columns:1fr 1fr;gap:22px}.project{border:1px solid var(--line);border-radius:20px;overflow:hidden;background:rgba(255,255,255,.025);transition:transform .4s var(--ease),border .3s;transform-style:preserve-3d}.project:hover{border-color:rgba(169,197,255,.5)}.project-visual{height:330px;position:relative;overflow:hidden;display:grid;place-items:center;background:linear-gradient(135deg,#1a2c62,#080d20)}
+.project-image{width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s var(--ease)}
+.project:hover .project-image{transform:scale(1.04)}
+.project:nth-child(2) .project-visual{background:linear-gradient(135deg,#ece9ff,#c9c2f2)}.browser{width:76%;background:#f7f7ff;color:#1b2348;border-radius:10px;box-shadow:0 25px 70px rgba(0,0,0,.3);overflow:hidden;transform:rotate(-4deg);transition:transform .6s var(--ease)}.project:hover .browser{transform:rotate(0) scale(1.04)}.browser-bar{height:25px;background:#e9eafa;display:flex;align-items:center;padding:0 10px;gap:5px}.browser-bar i{width:6px;height:6px;border-radius:50%;background:#a9b1d3}.browser-body{padding:24px}.browser-brand{font-size:9px;letter-spacing:.15em;font-weight:800}.browser-head{font-size:clamp(1.2rem,3vw,2.2rem);line-height:1.05;letter-spacing:-.06em;margin:24px 0 10px;font-weight:800}.browser-copy{font-size:8px;color:#687293;max-width:200px}.browser-pill{display:inline-block;background:#a9c5ff;border-radius:20px;padding:7px 12px;font-size:7px;margin-top:15px}.project:nth-child(2) .browser-head{color:#344b91}.project-meta{padding:25px}.project-number{color:var(--mint)}.project h3{font-size:1.65rem;letter-spacing:-.05em;margin:8px 0}.project p{color:var(--muted);font-size:.85rem;max-width:490px}.tags{display:flex;flex-wrap:wrap;gap:7px;margin:18px 0}.tag{border:1px solid var(--line);padding:6px 10px;border-radius:30px;color:var(--muted);font: .62rem var(--mono)}.project-links{display:flex;gap:18px;margin-top:22px;font-size:.76rem;color:var(--mint)}.project-links a:hover{text-decoration:underline}.capabilities{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.cap{border:1px solid var(--line);border-radius:18px;padding:26px;min-height:225px;transition:background .3s,transform .3s}.cap:hover{background:var(--panel);transform:translateY(-5px)}.cap-num{color:var(--mint)}.cap h3{font-size:1.3rem;letter-spacing:-.04em;margin:30px 0 8px}.cap p{color:var(--muted);font-size:.82rem}.stack-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.stack-item{border:1px solid var(--line);border-radius:14px;padding:18px;min-height:112px;display:flex;flex-direction:column;justify-content:space-between;transition:transform .25s,border .25s}.stack-item:hover{transform:translateY(-5px);border-color:var(--mint)}.stack-item strong{font-size:.95rem}.stack-item span{color:var(--muted);font: .6rem var(--mono)}.journey{display:grid;grid-template-columns:.7fr 1.3fr;gap:70px}.timeline{border-left:1px solid var(--line);padding-left:28px;display:grid;gap:34px}.timeline-item{position:relative}.timeline-item:before{content:"";position:absolute;width:9px;height:9px;border-radius:50%;background:var(--mint);left:-33px;top:8px;box-shadow:0 0 0 5px rgba(169,197,255,.1)}.timeline-item small{font: .65rem var(--mono);color:var(--mint)}.timeline-item h3{margin:6px 0;font-size:1.05rem}.timeline-item p{margin:0;color:var(--muted);font-size:.82rem}.terminal-wrap{background:#080d1d;border:1px solid rgba(184,242,139,.25);border-radius:18px;overflow:hidden;box-shadow:0 25px 90px rgba(0,0,0,.22)}.terminal-head{padding:14px 18px;border-bottom:1px solid rgba(255,255,255,.1);display:flex;justify-content:space-between;color:#92a99c;font: .65rem var(--mono)}.terminal-dots{display:flex;gap:5px}.terminal-dots i{width:7px;height:7px;background:#5365a8;border-radius:50%}.terminal-body{padding:24px;color:#d5ddff;font: .78rem/1.9 var(--mono);min-height:230px}.terminal-output{white-space:pre-wrap;color:#aab8e8}.terminal-form{display:flex;gap:9px}.terminal-form label{color:var(--mint)}.terminal-form input{flex:1;min-width:0;background:none;border:0;outline:0;color:#fff;font:inherit;caret-color:var(--mint)}.contact-panel{background:linear-gradient(115deg,#a9c5ff 0%,#c5b4ff 68%,#f0b8d7 120%);color:#10172c;border-radius:24px;padding:clamp(30px,7vw,80px);position:relative;overflow:hidden}.contact-panel:after{content:"";position:absolute;width:330px;height:330px;border:1px solid rgba(32,43,93,.16);border-radius:50%;right:-70px;top:-120px;box-shadow:0 0 0 35px rgba(32,43,93,.035),0 0 0 70px rgba(32,43,93,.025)}.contact-panel .kicker{color:#45518e}.contact-panel h2{font-size:clamp(3rem,7vw,6.5rem);line-height:.95;letter-spacing:-.08em;max-width:800px;margin:15px 0 25px}.contact-panel p{max-width:500px;color:#45518e}.contact-panel .btn{background:#10251f;color:#f3f4ff;border-color:#10251f;position:relative;z-index:1}.footer{padding:35px 0 45px;display:flex;justify-content:space-between;gap:20px;color:var(--muted);font:.65rem var(--mono)}.reveal{opacity:0;transform:translateY(28px);transition:opacity .8s var(--ease),transform .8s var(--ease)}.reveal.visible{opacity:1;transform:translateY(0)}.music{position:fixed;z-index:100;bottom:22px;left:22px;display:flex;align-items:center;gap:10px;padding:9px 13px;border:1px solid var(--line);border-radius:50px;background:rgba(7,27,24,.88);backdrop-filter:blur(14px);color:#f4f7ef;font-size:.68rem}.music button{border:0;background:none;color:var(--mint);font-size:1rem;cursor:auto}.equalizer{display:flex;gap:2px;align-items:center;height:15px}.equalizer i{display:block;width:2px;height:5px;background:var(--mint);border-radius:3px}.music.playing .equalizer i{animation:eq .65s ease-in-out infinite alternate}.music.playing .equalizer i:nth-child(2){animation-delay:.2s}.music.playing .equalizer i:nth-child(3){animation-delay:.4s}.music.playing .equalizer i:nth-child(4){animation-delay:.1s}@keyframes eq{to{height:14px}}.toast{position:fixed;z-index:3000;bottom:28px;right:24px;background:var(--mint);color:#10251f;padding:12px 17px;border-radius:10px;font-size:.75rem;opacity:0;transform:translateY(10px);transition:.3s;pointer-events:none}.toast.show{opacity:1;transform:translateY(0)}.backtop{position:fixed;right:22px;bottom:22px;width:42px;height:42px;border:1px solid var(--line);border-radius:50%;background:var(--bg2);color:var(--mint);z-index:90;opacity:0;pointer-events:none;transition:.3s;cursor:auto}.backtop.show{opacity:1;pointer-events:auto}
+@media(max-width:800px){body{cursor:auto}.cursor,.cursor-ring{display:none}.navlinks{display:none;position:absolute;top:75px;left:0;right:0;background:var(--bg2);padding:25px;flex-direction:column;gap:20px;border:1px solid var(--line);border-radius:15px}.navlinks.open{display:flex}.menu-btn{display:grid}.hero{grid-template-columns:1fr;padding:75px 0 100px}.hero-art{height:300px;grid-row:1}.orb-core{width:145px;height:145px}.orbit{width:270px}.hero-copy{font-size:.9rem}.hero-bottom{font-size:.58rem}.section-top{display:block}.section-intro{margin-top:20px}.about-grid,.journey{grid-template-columns:1fr;gap:30px}.projects{grid-template-columns:1fr}.project-visual{height:280px}.capabilities{grid-template-columns:1fr 1fr}.stack-grid{grid-template-columns:1fr 1fr}section{padding:85px 0}.footer{flex-direction:column}.music{bottom:12px;left:12px}.backtop{bottom:12px;right:12px}}
+@media(max-width:480px){.wrap{width:min(100% - 32px,1180px)}h1{font-size:clamp(3.2rem,16vw,5rem)}.hero-art{height:260px}.capabilities{grid-template-columns:1fr}.facts{gap:8px}.fact{padding:13px}.project-visual{height:245px}.browser{width:83%}.hero-bottom .mono:last-child{display:none}.section-title{font-size:2.8rem}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}.reveal{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<div class="top-progress" id="progress"></div><canvas id="particleCanvas" aria-hidden="true"></canvas>
+<div class="site">
+<header class="wrap nav">
+<a class="brand" href="#top">MUMBA <span>V.</span></a>
+<nav class="navlinks" id="navlinks"><a href="#about">About</a><a href="#work">Selected work</a><a href="#capabilities">Capabilities</a><a href="#journey">Journey</a><a href="#contact">Contact</a></nav>
+<div class="navright"><button class="icon-btn" id="themeToggle" aria-label="Toggle colour theme">◐</button><button class="icon-btn menu-btn" id="menuBtn" aria-label="Open navigation">☰</button></div>
+</header>
+<main id="top">
+<section class="wrap hero">
+<div>
+<div class="eyebrow mono"><i class="pulse"></i> WEB DEVELOPER · LUSAKA, ZAMBIA</div>
+<h1>Ideas into<br><span class="outline">digital</span><br><span class="typed-line" id="typed">experiences.</span><span class="caret"></span></h1>
+<p class="hero-copy">I'm Mumba Veronica — a web developer who brings ideas to life through thoughtful design, purposeful code and digital experiences made for real people.</p>
+<div class="hero-actions"><a class="btn primary magnetic" href="#work">Explore my work <span>↗</span></a><a class="btn secondary magnetic" href="#contact">Let's create something <span>↗</span></a></div>
+</div>
+<div class="hero-art" aria-label="Abstract animated green 3D-inspired orb"><div class="orbit"></div><div class="orb-core"></div><span class="orbit-label one">DESIGN × CODE</span><span class="orbit-label two">CREATIVE THINKING</span><span class="orbit-label three">BUILT WITH PURPOSE</span></div>
+<div class="hero-bottom"><span class="scroll-cue mono"><i class="scroll-line"></i> SCROLL TO EXPLORE</span><span class="mono" id="localClock">LUSAKA 00:00:00</span></div>
+</section>
+<section class="wrap" id="about">
+<div class="section-top reveal"><div><div class="kicker mono">01 / A LITTLE ABOUT ME</div><h2 class="section-title">More than<br>just the code.</h2></div><p class="section-intro">I care about what a website makes possible — how it helps people understand an idea, connect with an organisation or take their next step.</p></div>
+<div class="about-grid"><div class="about-statement reveal">I bring together <em>creativity, technology</em> and a human understanding of the people on the other side of the screen.</div><div class="about-text reveal"><p>I'm <strong>Mumba Veronica Chikumbi</strong>, a Zambia-based web developer and founder of Youth Skilled. I've been building web projects since 2023, working with HTML, CSS and JavaScript to create responsive digital experiences.</p><p>My work spans a youth-focused platform and a school website. Beyond development, youth leadership and community work have shaped how I communicate, collaborate and approach problems.</p><div class="facts"><div class="fact"><strong>2023</strong><span>Started building for the web</span></div><div class="fact"><strong>02</strong><span>Featured projects</span></div><div class="fact"><strong>HTML · CSS</strong><span>Core foundations</span></div><div class="fact"><strong>JavaScript</strong><span>Interactive experiences</span></div></div></div></div>
+</section>
+<section class="wrap" id="work">
+<div class="section-top reveal"><div><div class="kicker mono">02 / SELECTED WORK</div><h2 class="section-title">A couple of things<br>I've brought to life.</h2></div><p class="section-intro">Two projects. Different needs. The same intention: make the digital experience clearer, more useful and more engaging.</p></div>
+<div class="projects">
+<article class="project reveal" data-tilt><div class="project-visual">
+  
+  <img src="C:\Users\mumba\OneDrive\Pictures\Screenshots\Screenshot (1454).png"
+       alt="Screenshot of the Youth Skilled website"
+       class="project-image">
+</div><div class="project-meta"><div class="project-number mono">PROJECT 01 · FOUNDER PROJECT</div><h3>Youth Skilled</h3><p>A youth-focused digital platform concept connecting young people with learning opportunities, services and pathways to employment. Founded the initiative and led its web development.</p><div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">Product thinking</span></div><div class="project-links"><a href="https://github.com/YOUR-USERNAME/YOUR-YOUTH-SKILLED-REPOSITORY" target="_blank" rel="noopener">View on GitHub ↗</a><a href="mailto:mumba2022chikumbi@gmail.com?subject=Youth%20Skilled%20project">Ask about this project ↗</a></div></div></article>
+<article class="project reveal" data-tilt><div class="project-visual">
+  
+  <img src="C:\Users\mumba\OneDrive\Pictures\Screenshots\Screenshot (1455).png"
+       alt="Screenshot of the school website"
+       class="project-image">
+</div><div class="project-meta"><div class="project-number mono">PROJECT 02 · INSTITUTIONAL WEBSITE</div><h3>School Website</h3><p>A website project for my former school, designed to strengthen its online presence and make important information easier for its community to access.</p><div class="tags"><span class="tag">Website design</span><span class="tag">Front-end development</span><span class="tag">Responsive design</span></div><div class="project-links"><a href="https://github.com/YOUR-USERNAME/YOUR-SCHOOL-WEBSITE-REPOSITORY" target="_blank" rel="noopener">View on GitHub ↗</a><a href="mailto:mumba2022chikumbi@gmail.com?subject=School%20website%20project">Ask about this project ↗</a></div></div></article>
+</div>
+<p class="mono muted" style="margin-top:18px">PROJECT PREVIEWS ARE STYLISED REPRESENTATIONS. REPLACE WITH REAL SCREENSHOTS WHEN READY.</p>
+</section>
+<section class="wrap" id="capabilities">
+<div class="section-top reveal"><div><div class="kicker mono">03 / WHAT I CAN BUILD</div><h2 class="section-title">Good websites do<br>more than look good.</h2></div><p class="section-intro">I help businesses and organisations create a useful, polished online presence that makes it easier for people to understand what they do.</p></div>
+<div class="capabilities"><article class="cap reveal"><div class="cap-num mono">01 / INTRODUCE</div><h3>Business websites</h3><p>Professional websites that tell your story, establish trust and make it easy for customers to reach you.</p></article><article class="cap reveal"><div class="cap-num mono">02 / SHOWCASE</div><h3>Products & services</h3><p>Clear, organised pages that help people explore your offerings, understand the details and take action.</p></article><article class="cap reveal"><div class="cap-num mono">03 / IMPROVE</div><h3>Website experiences</h3><p>Responsive layouts, thoughtful interactions and front-end improvements that make existing websites work better.</p></article></div>
+</section>
+<section class="wrap" id="stack">
+<div class="section-top reveal"><div><div class="kicker mono">04 / MY TOOLKIT</div><h2 class="section-title">The tools behind<br>the experience.</h2></div><p class="section-intro">A growing toolkit grounded in front-end development, with a focus on writing clean code and making the details count.</p></div>
+<div class="stack-grid"><div class="stack-item reveal"><strong>HTML5</strong><span>STRUCTURE & ACCESSIBILITY</span></div><div class="stack-item reveal"><strong>CSS3</strong><span>LAYOUT & VISUAL DESIGN</span></div><div class="stack-item reveal"><strong>JavaScript</strong><span>INTERACTION & LOGIC</span></div><div class="stack-item reveal"><strong>Responsive design</strong><span>EVERY SCREEN SIZE</span></div><div class="stack-item reveal"><strong>GSAP</strong><span>ADVANCED MOTION · EXPLORING</span></div><div class="stack-item reveal"><strong>Three.js</strong><span>3D WEB · EXPLORING</span></div><div class="stack-item reveal"><strong>Web APIs</strong><span>BROWSER CAPABILITIES</span></div><div class="stack-item reveal"><strong>Creative coding</strong><span>EXPERIMENTATION</span></div></div>
+</section>
+<section class="wrap" id="journey">
+<div class="section-top reveal"><div><div class="kicker mono">05 / BEYOND THE CODE</div><h2 class="section-title">People, purpose<br>& perspective.</h2></div><p class="section-intro">The experiences that shape how I think, work with others and approach the problems worth solving.</p></div>
+<div class="journey"><div class="reveal"><p class="about-statement" style="font-size:1.55rem">Technology is built by people, for people. <em>That perspective matters.</em></p><p class="muted">My leadership and community experiences have strengthened the communication, initiative and collaboration I bring to projects.</p></div><div class="timeline reveal"><div class="timeline-item"><small>2026</small><h3>EducationUSA Scholar · U.S. Embassy Zambia</h3><p>Selected for a university-preparation and leadership-development programme.</p></div><div class="timeline-item"><small>2025–2026</small><h3>Global Teen Advisor · Girl Up, UN Foundation</h3><p>Contributed to youth leadership and gender equality initiatives through a global teen advisory community.</p></div><div class="timeline-item"><small>2023–PRESENT</small><h3>Founder & Web Developer · Youth Skilled</h3><p>Building a youth-focused initiative around skills development, opportunity and access to income.</p></div></div></div>
+</section>
+<section class="wrap" id="playground">
+<div class="section-top reveal"><div><div class="kicker mono">06 / A LITTLE PLAYGROUND</div><h2 class="section-title">Curious? Try<br>the terminal.</h2></div><p class="section-intro">A tiny interactive corner. Type a command and see where it takes you.</p></div>
+<div class="terminal-wrap reveal"><div class="terminal-head"><span> MUMBA.SYS — INTERACTIVE SHELL</span><span class="terminal-dots"><i></i><i></i><i></i></span></div><div class="terminal-body"><div class="terminal-output" id="terminalOutput">Welcome, visitor. This is a tiny corner of my portfolio.<br>Type <span style="color:#a9c5ff">help</span> to see what you can do.</div><form class="terminal-form" id="terminalForm"><label>visitor@mumba:~$</label><input id="terminalInput" autocomplete="off" spellcheck="false" aria-label="Terminal command"><button type="submit" style="display:none">Run</button></form></div></div>
+</section>
+<section class="wrap" id="contact"><div class="contact-panel reveal"><div class="kicker mono">HAVE A PROJECT IN MIND?</div><h2>Let's make<br>something matter.</h2><p>If your business or organisation is ready for a thoughtful, professional online presence, I'd love to hear what you're working on.</p><a class="btn magnetic" href="mailto:mumba2022chikumbi@gmail.com?subject=Website%20project%20enquiry">Start a conversation ↗</a><p style="margin-top:28px;font-size:.78rem">mumba2022chikumbi@gmail.com · 0575353351 . Lusaka, Zambia</p></div></section>
+</main>
+<footer class="wrap footer"><span>© <span id="year"></span> MUMBA VERONICA CHIKUMBI</span><span>DESIGNED WITH INTENTION · BUILT WITH CURIOSITY</span><a href="#top">BACK TO TOP ↑</a></footer>
+</div>
+<div class="music" id="musicWidget"><button id="musicToggle" aria-label="Play soft piano soundscape">▶</button><span class="equalizer"><i></i><i></i><i></i><i></i></span><span id="musicLabel">SOFT PIANO · OFF</span></div>
+<button class="backtop" id="backtop" aria-label="Back to top">↑</button><div class="toast" id="toast">Email copied to clipboard</div>
+<script>
+(()=>{'use strict';
+const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
+$('#year').textContent=new Date().getFullYear();
+// Rotating typewriter
+const words=['experiences.','possibilities.','connections.','solutions.'];let wi=0,ci=0,deleting=false;const typed=$('#typed');
+function type(){const word=words[wi];ci+=deleting?-1:1;typed.textContent=word.slice(0,ci);let delay=deleting?48:92;if(!deleting&&ci===word.length){deleting=true;delay=1700}else if(deleting&&ci===0){deleting=false;wi=(wi+1)%words.length;delay=350}setTimeout(type,delay)}setTimeout(type,900);
+// Lusaka clock
+function clock(){const d=new Date();$('#localClock').textContent='LUSAKA '+new Intl.DateTimeFormat('en-GB',{timeZone:'Africa/Lusaka',hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:false}).format(d)}clock();setInterval(clock,1000);
+// Scroll progress and back-to-top
+const progress=$('#progress'),backtop=$('#backtop');function onScroll(){const max=document.documentElement.scrollHeight-innerHeight;progress.style.width=(max>0?scrollY/max*100:0)+'%';backtop.classList.toggle('show',scrollY>600)}addEventListener('scroll',onScroll,{passive:true});onScroll();backtop.onclick=()=>scrollTo({top:0,behavior:'smooth'});
+// Reveal on scroll
+const revealObserver=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');revealObserver.unobserve(e.target)}}),{threshold:.12});$$('.reveal').forEach(el=>revealObserver.observe(el));
+// Active nav links
+const sections=$$('main section[id]');const navObserver=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){$$('.navlinks a').forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+e.target.id))}}),{rootMargin:'-35% 0px -55% 0px'});sections.forEach(s=>navObserver.observe(s));
+// Mobile menu
+$('#menuBtn').onclick=()=>$('#navlinks').classList.toggle('open');$$('.navlinks a').forEach(a=>a.addEventListener('click',()=>$('#navlinks').classList.remove('open')));
+// Theme
+$('#themeToggle').onclick=()=>{document.body.classList.toggle('light');$('#themeToggle').textContent=document.body.classList.contains('light')?'☀':'◐'};
+// Use the browser’s normal pointer. Project cards still have a restrained tilt effect on desktop.
+// Project card tilt
+if(matchMedia('(pointer:fine)').matches){$$('[data-tilt]').forEach(card=>{card.addEventListener('mousemove',e=>{const b=card.getBoundingClientRect(),x=(e.clientX-b.left)/b.width-.5,y=(e.clientY-b.top)/b.height-.5;card.style.transform=`perspective(900px) rotateY(${x*4}deg) rotateX(${-y*4}deg) translateY(-4px)`});card.addEventListener('mouseleave',()=>card.style.transform='')})}
+// Canvas particle field
+const canvas=$('#particleCanvas'),ctx=canvas.getContext('2d');let W,H,particles=[],mouse={x:-1000,y:-1000};function resize(){W=canvas.width=innerWidth*devicePixelRatio;H=canvas.height=innerHeight*devicePixelRatio;canvas.style.width=innerWidth+'px';canvas.style.height=innerHeight+'px';ctx.setTransform(devicePixelRatio,0,0,devicePixelRatio,0,0);W=innerWidth;H=innerHeight;particles=Array.from({length:Math.min(65,Math.floor(W/20))},()=>({x:Math.random()*W,y:Math.random()*H,vx:(Math.random()-.5)*.22,vy:(Math.random()-.5)*.22,r:Math.random()*1.5+.4}))}addEventListener('resize',resize);addEventListener('mousemove',e=>{mouse.x=e.clientX;mouse.y=e.clientY},{passive:true});resize();function draw(){ctx.clearRect(0,0,W,H);for(let i=0;i<particles.length;i++){const p=particles[i];p.x+=p.vx;p.y+=p.vy;if(p.x<0||p.x>W)p.vx*=-1;if(p.y<0||p.y>H)p.vy*=-1;const dx=mouse.x-p.x,dy=mouse.y-p.y,d=Math.hypot(dx,dy);if(d<115){p.x-=dx*.0007;p.y-=dy*.0007}ctx.beginPath();ctx.arc(p.x,p.y,p.r,0,Math.PI*2);ctx.fillStyle='rgba(169,197,255,.55)';ctx.fill();for(let j=i+1;j<particles.length;j++){const q=particles[j],dist=Math.hypot(p.x-q.x,p.y-q.y);if(dist<105){ctx.beginPath();ctx.moveTo(p.x,p.y);ctx.lineTo(q.x,q.y);ctx.strokeStyle=`rgba(184,242,139,${(1-dist/105)*.09})`;ctx.lineWidth=.7;ctx.stroke()}}}requestAnimationFrame(draw)}if(!matchMedia('(prefers-reduced-motion: reduce)').matches)draw();
+// Terminal
+const output=$('#terminalOutput'),form=$('#terminalForm'),input=$('#terminalInput');const commands={help:'Available commands: about · projects · skills · contact · clear · hello',about:'I am Mumba Veronica Chikumbi — a web developer and founder of Youth Skilled, based in Lusaka, Zambia.',projects:'Two featured projects: Youth Skilled and a school website. Scroll up to explore both.',skills:'HTML · CSS · JavaScript · responsive design · front-end development. Always learning.',contact:'Email: mumba2022chikumbi@gmail.com',hello:'Hey there! Thanks for exploring. Hope you found something interesting.'};form.addEventListener('submit',e=>{e.preventDefault();const cmd=input.value.trim().toLowerCase();if(!cmd)return;const line=document.createElement('div');line.textContent='visitor@mumba:~$ '+cmd;output.appendChild(line);const response=document.createElement('div');response.className='terminal-output';if(cmd==='clear'){output.innerHTML='';}else response.textContent=commands[cmd]||`Command not found: ${cmd}. Type "help" to see available commands.`;output.appendChild(response);input.value='';form.scrollIntoView({block:'nearest'});});
+// Gentle piano-like soundscape, started only after the visitor presses play.
+let audioCtx=null, master=null, playing=false, pianoTimer=null, noteIndex=0;
+const music=$('#musicWidget'),toggle=$('#musicToggle'),label=$('#musicLabel');
+const melody=[
+  [261.63,329.63,392.00],[293.66,349.23,440.00],
+  [246.94,311.13,369.99],[261.63,329.63,392.00],
+  [220.00,293.66,349.23],[246.94,311.13,392.00]
+];
+function pianoNote(freq, when, duration, velocity){
+  const fundamental=audioCtx.createOscillator();
+  const second=audioCtx.createOscillator();
+  const body=audioCtx.createBiquadFilter();
+  const envelope=audioCtx.createGain();
+  const tone=audioCtx.createGain();
+  fundamental.type='triangle'; fundamental.frequency.setValueAtTime(freq,when);
+  second.type='sine'; second.frequency.setValueAtTime(freq*2.01,when);
+  second.detune.setValueAtTime(-3,when);
+  body.type='lowpass'; body.frequency.setValueAtTime(2100,when);
+  tone.gain.value=1;
+  envelope.gain.setValueAtTime(0.0001,when);
+  envelope.gain.exponentialRampToValueAtTime(Math.max(.0002,velocity),when+.012);
+  envelope.gain.exponentialRampToValueAtTime(Math.max(.0001,velocity*.34),when+.22);
+  envelope.gain.exponentialRampToValueAtTime(.0001,when+duration);
+  fundamental.connect(body); second.connect(body); body.connect(tone); tone.connect(envelope); envelope.connect(master);
+  fundamental.start(when); second.start(when);
+  fundamental.stop(when+duration+.03); second.stop(when+duration+.03);
+}
+function playPianoPhrase(){
+  if(!playing||!audioCtx)return;
+  const chord=melody[noteIndex%melody.length];
+  const now=audioCtx.currentTime;
+  // Soft broken-chord notes with a little space between them.
+  pianoNote(chord[0]/2,now,2.8,.035);
+  pianoNote(chord[0],now+.16,2.2,.023);
+  pianoNote(chord[1],now+.48,2.0,.019);
+  pianoNote(chord[2],now+.82,2.4,.022);
+  // A sparse upper note changes the phrase without becoming busy.
+  if(noteIndex%2===0)pianoNote(chord[1]*2,now+1.42,1.5,.008);
+  noteIndex++;
+  pianoTimer=setTimeout(playPianoPhrase,2600);
+}
+async function startAudio(){
+  const AC=window.AudioContext||window.webkitAudioContext;
+  if(!AC){label.textContent='AUDIO NOT SUPPORTED';return}
+  audioCtx=audioCtx||new AC();
+  await audioCtx.resume();
+  master=audioCtx.createGain();
+  master.gain.setValueAtTime(.34,audioCtx.currentTime);
+  master.connect(audioCtx.destination);
+  playing=true; music.classList.add('playing'); toggle.textContent='Ⅱ';
+  toggle.setAttribute('aria-label','Pause soft piano soundscape');
+  label.textContent='SOFT PIANO · ON';
+  playPianoPhrase();
+}
+function stopAudio(){
+  playing=false; clearTimeout(pianoTimer);
+  if(master&&audioCtx){master.gain.setTargetAtTime(0,audioCtx.currentTime,.12);setTimeout(()=>{if(audioCtx){audioCtx.close();audioCtx=null}master=null},450)}
+  music.classList.remove('playing');toggle.textContent='▶';
+  toggle.setAttribute('aria-label','Play soft piano soundscape');label.textContent='SOFT PIANO · OFF';
+}
+toggle.addEventListener('click',()=>playing?stopAudio():startAudio());
+// Email copy via contact detail shortcut (keyboard: press E)
+addEventListener('keydown',e=>{if(e.key.toLowerCase()==='e'&&!['INPUT','TEXTAREA'].includes(document.activeElement.tagName)){navigator.clipboard?.writeText('mumba2022chikumbi@gmail.com').then(()=>{const t=$('#toast');t.classList.add('show');setTimeout(()=>t.classList.remove('show'),1800)}).catch(()=>{})}});
+})();
+</script>
+</body>
+</html>
